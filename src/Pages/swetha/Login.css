@@ -1,0 +1,36 @@
+.login {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 1) 100%
+      ),
+      url("https://res.cloudinary.com/djvcyin2i/image/upload/v1687013103/Untitled_design_4_z7prhl.png");
+    background-size: 100vw;
+    position: relative;
+  
+    .container {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    
+      form {
+        width: 100%;
+        height: 100%;
+        padding: 30px;
+        border-radius: 5px;
+        background-color: var(--main-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+    }
+}
